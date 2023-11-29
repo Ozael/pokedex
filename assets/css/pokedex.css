@@ -142,6 +142,15 @@
   color: #eeeded;
 }
 
+#detailButton {
+  background-color: rgba(255, 255, 255, 0);
+  border-style: none;
+}
+
+#detailButton:hover {
+  cursor: pointer;
+}
+
 @media screen and (min-width: 380px) {
   .pokemons {
     grid-template-columns: 1fr 1fr;
